@@ -1,0 +1,14 @@
+# numerical comp.
+pandas
+numpy
+scipy
+
+# visualization
+matplotlib
+scikit-image
+
+# image manipulation
+# opencv-python
+
+# other
+pydicom
