@@ -1,4 +1,16 @@
 # USF Data Science Bowl Repo
+
+Entry for the https://www.kaggle.com/c/data-science-bowl-2017
+
+
+* *Goal:* Predicting whether a CT scan is of a patient who either has or will develop cancer within the next 12 months or not.
+
+Using Keras, we build a pipeline for a submission for this competition.
+
+Biggest challenge was to make every 3-D image the same size without loss of information.
+
+
+
 Table of Contents
 =================
 * [Module Structure](#module-structure)
