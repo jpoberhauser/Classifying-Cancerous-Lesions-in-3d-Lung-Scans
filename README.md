@@ -3,21 +3,26 @@
 Entry for the https://www.kaggle.com/c/data-science-bowl-2017
 
 
-* *Goal:* Predicting whether a CT scan is of a patient who either has or will develop cancer within the next 12 months or not.
+* *Goal:* Predicting whether a CT scan is of a patient who either has or will develop cancer within the next 12 months or not using Deep Learning
 
-Using Keras, we build a pipeline for a submission for this competition.
 
-Biggest challenge was to make every 3-D image the same size without loss of information.
+
+**Biggest challenge**: Develop a technique to standardize 3D scans to be the same dimensions and reatining the most amount of useful infromation. 
 
 
 
 Table of Contents
 =================
+
 * [Module Structure](#module-structure)
+
 * [Somewhat Assumed File Structure](#somewhat-assumed-file-structure)
+
 * [Installing Dependencies](#installing-dependencies)
+
 * [Running Notebook on Server](#running-notebook-on-server)
-* [Jupyter Theme Is Terrible](#jupyter-theme-is-terrible)
+
+
 
 
 ## Module Structure
@@ -65,11 +70,5 @@ According to Brad, all that is needed to run a notebook on the gpu-cluster is th
 jupyter notebook --no-browser --ip=* --port=<port>
 ```
 
-After running the following code you should be able to access the notebook at server_ip:port. ~~, but I haven't gotten that to work.~~
+After running the following code you should be able to access the notebook at server_ip:port.
 
-## Jupyter Theme Is Terrible
-solution: https://github.com/dunovank/jupyter-themes
-```
-pip install --user --upgrade jupyterthemes
-jt -t cherish
-```
